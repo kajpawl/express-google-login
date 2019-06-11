@@ -1,0 +1,11 @@
+doctype html
+html
+	head
+		title="Hello Logged Pug"
+	body
+		include ./header.pug
+			h1 Hi, #{user.displayName}!
+			p.point You have logged in successfully.
+			p.stronger-point Feel free to look through our website. It's empty.
+			p Have a GREAT day!
+		include ./footer.pug
